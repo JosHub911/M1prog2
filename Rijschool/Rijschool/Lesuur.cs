@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Rijschool
+﻿namespace Rijschool
 {
     internal class Lesuur
     {
+        internal int tijd;
+        internal Student student;
+        internal Rijleraar rijLeraar;
+        internal Auto auto; 
     }
 }

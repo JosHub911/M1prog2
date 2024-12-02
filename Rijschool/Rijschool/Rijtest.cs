@@ -3,7 +3,8 @@ namespace Rijschool
 {
     internal class Rijtest
     {
-        internal bool
+        internal bool gehaald;
         internal DateTime afnameDatum;
+
     }
 }

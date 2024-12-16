@@ -4,15 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Constructers
 {
     internal class QuizVraagAntwoord
     {
         internal QuizVraag vraag;
         internal bool goed;
 
-        internal QuizVraagAntwoord() 
+        internal QuizVraagAntwoord()
         {
         }
+
     }
+
+
+
+
+
 }

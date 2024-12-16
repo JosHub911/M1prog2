@@ -1,10 +1,7 @@
-﻿using ConsoleApp1;
-
+﻿using Constructers;
 
 namespace Functions
 {
-
-
     internal class Program
     {
         static void Main(string[] args)
@@ -16,12 +13,16 @@ namespace Functions
         }
         void Run()
         {
-            QuizVraag quizVraag = new QuizVraag("hier komt de vraag?", "hier komt het antwoord");
+            QuizVraag quizVraag = new QuizVraag("hier komt de vraag", "hier komt een antwoord");
+            Quiz quiz = new Quiz(10);
+
+            Quiz.vragen[0];
         }
 
+
+
+
+
     }
+
 }
-
-
-
-
